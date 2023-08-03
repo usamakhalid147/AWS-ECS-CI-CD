@@ -29,5 +29,5 @@ jobs:
         sudo docker stop flask 
         sudo docker rm flask 
         sudo docker build -t flask . 
-        sudo docker run flask -d -p 5000:5000
+        sudo docker run -d flask  -p 5000:5000
         EOF
